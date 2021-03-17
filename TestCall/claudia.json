@@ -1,7 +1,0 @@
-{
-  "lambda": {
-    "role": "awshelpers-testcall-executor",
-    "name": "awshelpers-testcall",
-    "region": "us-east-2"
-  }
-}

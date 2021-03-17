@@ -1,7 +1,0 @@
-{
-  "lambda": {
-    "role": "awshelpers-invalidatecloudfront-executor",
-    "name": "awshelpers-invalidatecloudfront",
-    "region": "us-east-2"
-  }
-}

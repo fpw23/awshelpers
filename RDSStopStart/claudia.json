@@ -1,7 +1,0 @@
-{
-  "lambda": {
-    "role": "awshelpers-rdsstopstart-executor",
-    "name": "awshelpers-rdsstopstart",
-    "region": "us-east-2"
-  }
-}
