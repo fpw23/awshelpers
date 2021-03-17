@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "awshelpers-publishlambdaversion-executor",
+    "name": "awshelpers-publishlambdaversion",
+    "region": "us-east-2"
+  }
+}

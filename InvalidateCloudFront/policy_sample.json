@@ -1,0 +1,22 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowCloudFrontInvalidation",
+            "Effect": "Allow",
+            "Action": "cloudfront:CreateInvalidation",
+            "Resource": [
+                "<Lambda ARN>"
+            ]
+        },
+        {
+            "Sid": "AllowCodePipelineResults",
+            "Effect": "Allow",
+            "Action": [
+                "codepipeline:PutJobSuccessResult",
+                "codepipeline:PutJobFailureResult"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

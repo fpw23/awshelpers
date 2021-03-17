@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "awshelpers-updatelambdaimage-executor",
+    "name": "awshelpers-updatelambdaimage",
+    "region": "us-east-2"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "DryRun": false,
+    "FunctionName": "<Function ARN>",
+    "ImageUri": "<Image URL>"
+}

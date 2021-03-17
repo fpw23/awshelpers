@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "awshelpers-ec2stopstart-executor",
+    "name": "awshelpers-ec2stopstart",
+    "region": "us-east-2"
+  }
+}

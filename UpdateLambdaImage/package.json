@@ -1,0 +1,22 @@
+{
+  "name": "awshelpers-updatelambdaimage",
+  "version": "0.0.1",
+  "description": "Updates a lambda's container image",
+  "main": "index.js",
+  "config": {
+    "AWSPROFILE": "cradle-hive-lambda",
+    "AWSREGION": "us-east-2"
+  },
+  "scripts": {
+    "create": "claudia create --region %npm_package_config_AWSREGION%  --profile %npm_package_config_AWSPROFILE% --policies policy.json --handler lambda.handler",
+    "update": "claudia update --profile %npm_package_config_AWSPROFILE%",
+    "test": "claudia test-lambda --profile %npm_package_config_AWSPROFILE% --event basicevent.json",
+    "destroy": "claudia destroy --profile %npm_package_config_AWSPROFILE%"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-codepipeline": "^3.8.0",
+    "@aws-sdk/client-lambda": "^3.8.0"
+  }
+}

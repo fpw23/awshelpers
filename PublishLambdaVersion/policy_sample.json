@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowLambdaUpdate",
+            "Effect": "Allow",
+            "Action": [
+                "lambda:PublishVersion",
+                "lambda:GetFunctionConfiguration"
+            ],
+            "Resource": [
+                "<Lambda ARN>"
+            ]
+        },
+        {
+            "Sid": "AllowCodePipelineResults",
+            "Effect": "Allow",
+            "Action": [
+                "codepipeline:PutJobSuccessResult",
+                "codepipeline:PutJobFailureResult"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
